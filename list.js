@@ -79,6 +79,7 @@ class LinkedList {
         // Look for a node w data that matches our dataProp
         let currentNode = this.head
 
+        // While currentNode has a node assigned to it, check that node
         while(currentNode){
             // if the data matches, return that node
             if(currentNode.data === dataProp){
