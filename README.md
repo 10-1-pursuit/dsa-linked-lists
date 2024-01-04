@@ -8,3 +8,9 @@
     - search(node)
     - clear()
     - size()
+- Added
+    - delete(node)
+    - getFirst()
+    - getLast()
+    - isEmpty()
+    - getKth(k)
