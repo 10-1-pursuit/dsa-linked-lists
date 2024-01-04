@@ -14,3 +14,7 @@
     - getLast()
     - isEmpty()
     - getKth(k)
+    - pseudocode for:
+        - addToFront(node)
+        - toArray()
+        - reverse()
