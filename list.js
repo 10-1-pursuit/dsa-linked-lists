@@ -172,15 +172,27 @@ class LinkedList {
         }
     }
 
-    //addToFront(node){
+    // addToFront(node){
         // Assign node's next prop to be this.head
         // Reassign this.head to be node
     // }
 
-    //toArray(){
+    // toArray(){
         // Initialize an empty arr
         // Iterate through all the nodes, and push the data from each node to the array
         // return array
+    // }
+
+    // reverse(){
+        // 1. Initilize new reversedArr var and assign it the output of the toArray() call on this linked list, and also call the reverse method on the newly created array(this can be done in one or two steps)
+        // 2. Initialize a new empty array(reversedNodes) to hold our nodes as we create them(this will help us keep the nodes so we can update their "next" props)
+
+        // 3. Iterate through the reversedArr
+            // 3a. Create a new instance of the Node class for each value.
+            // 3b. Push that new node to the reversedNodes array
+            // 3c. If i - 1 >= 0, assign the next node of the element in that index of reversedNodes to be the newly created node ( reversedNodes[i - 1].next = node )
+
+        // 4. Reassign this.head to be the first element in the reversedNodes array
     // }
 }
 
